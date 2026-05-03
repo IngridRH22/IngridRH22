@@ -1,26 +1,43 @@
-<div align="center" style=" 
-  background-image: url(https://www.ongi.com.mx/Assets/Wave.svg); 
-  position: absolute;
-  width: 150%;
-  height: 25%;
-  animation: wave 10s -3s linear infinite;
-  transform: translate3d(0, 0, 0);
-  opacity: 0.8;">
-  <h1>Hi there 👋</h1>
-</div>
-
-
-<!--
-**IngridRH22/IngridRH22** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animación de Imagen</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        @keyframes waveMove {
+            0% {
+                background-position-x: 0;
+            }
+            100% {
+                background-position-x: -200px;
+            }
+        }
+        .container {
+            background-image: url(https://www.ongi.com.mx/Assets/Wave.svg);
+            background-repeat: repeat-x;
+            background-size: auto 150px;
+            animation: waveMove 3s linear infinite;
+            text-align: center;
+            padding: 100px 0;
+            position: relative;
+            min-height: 200px;
+        }
+        .text-below {
+            position: relative;
+            z-index: 1;
+            margin-top: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-below">Hi there 👋</h1>
+    </div>
+</body>
+</html>
