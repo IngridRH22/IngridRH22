@@ -1,3 +1,6 @@
+<div align="center" style="margin-top: 0px; margin-bottom: 0px;">
+  <img src="https://www.ongi.com.mx/Assets/Wave.gif">
+</div>
 ## Hi there 👋
 
 <!--
