@@ -1,7 +1,3 @@
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             margin: 0;
@@ -32,10 +28,7 @@
             color: white;
         }
     </style>
-</head>
-<body>
+
     <div class="container">
         <h1 class="text-below">Hi there 👋</h1>
     </div>
-</body>
-</html>
