@@ -1,7 +1,14 @@
-<div align="center" style="margin-top: 0px; margin-bottom: 0px;">
-  <img src="https://www.ongi.com.mx/Assets/Wave.gif">
+<div align="center" style=" 
+  background-image: url(https://www.ongi.com.mx/Assets/Wave.svg); 
+  position: absolute;
+  width: 150%;
+  height: 25%;
+  animation: wave 10s -3s linear infinite;
+  transform: translate3d(0, 0, 0);
+  opacity: 0.8;">
+  
 </div>
-## Hi there 👋
+<h1>Hi there 👋</h1>
 
 <!--
 **IngridRH22/IngridRH22** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
