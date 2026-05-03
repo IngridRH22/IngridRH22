@@ -6,9 +6,9 @@
   animation: wave 10s -3s linear infinite;
   transform: translate3d(0, 0, 0);
   opacity: 0.8;">
-  
+  <h1>Hi there 👋</h1>
 </div>
-<h1>Hi there 👋</h1>
+
 
 <!--
 **IngridRH22/IngridRH22** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
