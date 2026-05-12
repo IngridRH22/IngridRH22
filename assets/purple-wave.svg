@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+  <defs>
+    <style>
+      .wave { animation: drift 8s linear infinite; }
+      @keyframes drift {
+        from { transform: translateX(0px); }
+        to   { transform: translateX(-800px); }
+      }
+    </style>
+  </defs>
+  <g class="wave">
+    <path fill="#47006e" opacity="0.70" d="
+      M 0 15
+      C 150 15  250 50  400 50
+      C 550 50  650 15  800 15
+      C 950 15  1050 50 1200 50
+      C 1350 50 1450 15 1600 15
+      C 1750 15 1850 50 2000 50
+      C 2150 50 2250 15 2400 15
+      L 2400 0
+      L 0 0
+      Z
+    "/>
+  </g>
+</svg>
