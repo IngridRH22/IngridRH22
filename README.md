@@ -1,4 +1,4 @@
-<p align="center"> <img src="assets/purple-wave2.svg" width="100%" /> </p>
+<p align="center"> <img src="assets/purple-wave.svg" width="100%" /> </p>
 <h1 align="center">Hi, I'm Ingrid Rangel</h1>
 
 I am a second-level student in the Computer Engineering Technology - Computing Science program at Algonquin College with hands-on experience in full-stack web development, database management, and technical support tools. Skilled in JavaScript, PHP, SQL, MySQL, Java, Python, C++, and Linux environments. Strong analytical thinker with experience developing web modules, managing databases, supporting business processes, and learning new technologies quickly. Recognized for problem solving, adaptability, organization, and strong logical reasoning.
